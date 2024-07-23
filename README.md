@@ -6,7 +6,7 @@ Création d'une scrollbar / barre de défilement colorée en HTML5 et CSS3.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/scrollbar_coloree/
 
 ## Développez avec
 
