@@ -1,0 +1,46 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /**** Scrollbar sur Mozilla firefox ****/
+    scrollbar-color: #0051ff transparent; /* ascensseur bleu sur fond transparent */
+    scrollbar-width: auto; /* largeur par défaut */
+}
+
+/**** Scrollbar sur Chrome ****/
+
+/* Global */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+/* Ascenseur */ 
+::-webkit-scrollbar-thumb {
+   background-color: #0051ff;
+}
+  
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #fcfcfc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
